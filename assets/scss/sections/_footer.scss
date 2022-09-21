@@ -84,6 +84,9 @@
     }
   }
 }
+.widget_block .footer-title {
+  margin-bottom: 1rem;
+}
 @include max(1440px) {
   .footer {
     &-main {

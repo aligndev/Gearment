@@ -205,7 +205,7 @@ while (have_posts()) :
             <div class="col-10">
                 <h2 class="title-h4 newsletter-title">Latest news delivered right to your inbox</h2>
 
-                <?php echo do_shortcode('[contact-form-7 id="9759" title="Subscribe form"]') ?>
+                <?php echo do_shortcode('[mc4wp_form id="9965"]') ?>
 
                 <div class="decor-box"></div>
             </div>

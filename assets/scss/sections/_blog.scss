@@ -44,7 +44,8 @@
       > a {
         color: $c-prim;
         img {
-          filter: invert(49%) sepia(84%) saturate(7380%) hue-rotate(236deg) brightness(99%) contrast(96%);
+          filter: invert(49%) sepia(84%) saturate(7380%) hue-rotate(236deg)
+            brightness(99%) contrast(96%);
         }
         @include hover(1281px) {
           background-color: transparent;
@@ -365,6 +366,9 @@
   &-mobile {
     display: none;
   }
+}
+.page-template-page-blog .blog-banner .decor-box {
+  display: none;
 }
 @include max(1280px) {
   .blog {

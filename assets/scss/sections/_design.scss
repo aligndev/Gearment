@@ -28,6 +28,7 @@
 }
 .design-small {
   .design {
+    padding-bottom: 9rem;
     &-wrap {
       margin: 0;
       background-color: $c-light;
@@ -189,6 +190,7 @@
     }
   }
   .design-small {
+    padding-bottom: 6rem;
     .design {
       &-wrap {
         padding: 3rem 0;

@@ -8,7 +8,8 @@
   overflow: hidden;
   align-items: flex-end;
   height: auto;
-  min-height: 20vw;
+  /* min-height: 20vw; */
+  max-height: 35rem;
 }
 #piotnetgrid .piotnetgrid-card .piotnetgrid-image:hover img {
   -webkit-transform: scale(1.1);
@@ -202,7 +203,7 @@
     font-size: 25px;
   }
   #piotnetgrid .piotnetgrid-button.piotnetgrid-button--icon-only i::before {
-    content: "\f1de";
+    content: '\f1de';
   }
 }
 
@@ -252,7 +253,7 @@
   padding: 1rem 0rem;
 }
 #piotnetgrid .filter-facet .piotnetgrid-facet__show-more-less-btn:before {
-  content: "";
+  content: '';
   display: block;
   width: 3rem;
   height: 3rem;
@@ -733,7 +734,7 @@
   .feedback-update-form
   .feedback-form-link
   .feedback-form-icon:before {
-  content: "";
+  content: '';
   display: block;
   width: 3rem;
   height: 3rem;
@@ -792,7 +793,7 @@
 }
 
 @media screen and (max-width: 800px) {
-  .betterdocs-launcher[type="button"].betterdocs-launcher {
+  .betterdocs-launcher[type='button'].betterdocs-launcher {
     bottom: 3rem !important;
   }
   .custom_fc_frame {
