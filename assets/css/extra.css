@@ -8,7 +8,8 @@
   overflow: hidden;
   align-items: flex-end;
   height: auto;
-  min-height: 20vw;
+  /* min-height: 20vw; */
+  max-height: 35rem;
 }
 #piotnetgrid .piotnetgrid-card .piotnetgrid-image:hover img {
   -webkit-transform: scale(1.1);
