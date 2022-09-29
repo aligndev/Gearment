@@ -7,7 +7,7 @@
   background-color: #f5f5f5;
   overflow: hidden;
   align-items: flex-end;
-  height: auto;
+  height: 20vw;
   /* min-height: 20vw; */
   max-height: 35rem;
 }
